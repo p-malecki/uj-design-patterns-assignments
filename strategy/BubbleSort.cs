@@ -1,6 +1,6 @@
-namespace WP_zad3_templateMethod;
+namespace WP_zad3_strategy;
 
-public class BubbleSort : SortingState
+public class BubbleSort : SortingStrategy
 {
     public BubbleSort(int[] elementArray, int size)
     {

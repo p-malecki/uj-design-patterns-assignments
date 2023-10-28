@@ -1,6 +1,6 @@
-namespace WP_zad3_templateMethod;
+namespace WP_zad3_strategy;
 
-public class SelectionSort : SortingState
+public class SelectionSort : SortingStrategy
 {
     public SelectionSort(int[] elementArray, int size)
     {

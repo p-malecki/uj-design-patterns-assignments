@@ -1,6 +1,4 @@
-using WP_zad3_templateMethod;
-
-namespace WP_zad3_state;
+namespace WP_zad3_strategy;
 
 class Program
 {

@@ -1,8 +1,8 @@
 using System;
 
-namespace WP_zad3_templateMethod;
+namespace WP_zad3_strategy;
 
-public abstract class SortingState
+public abstract class SortingStrategy
 {
     protected int[] ElementArray;
     protected int Size;

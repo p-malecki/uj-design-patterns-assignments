@@ -1,6 +1,6 @@
-namespace WP_zad3_templateMethod;
+namespace WP_zad3_strategy;
 
-public class InsertionSort : SortingState
+public class InsertionSort : SortingStrategy
 {
     public InsertionSort(int[] elementArray, int size)
     {
