@@ -1,7 +1,5 @@
-using System.Net;
-using System.Xml.Linq;
+namespace designPatterns.uj_design_patterns_assignments.facade;
 
-namespace WP_zad1_fasada;
 
 class Vendor : Patron
 {

@@ -1,6 +1,5 @@
-using System.Net;
+namespace designPatterns.uj_design_patterns_assignments.facade;
 
-namespace WP_zad1_fasada;
 
 class LibraryFasade
 {

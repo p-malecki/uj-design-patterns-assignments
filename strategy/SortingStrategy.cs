@@ -1,6 +1,6 @@
 using System;
 
-namespace WP_zad3_strategy;
+namespace designPatterns.uj_design_patterns_assignments.strategy;
 
 public abstract class SortingStrategy
 {

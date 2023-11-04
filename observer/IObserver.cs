@@ -1,4 +1,4 @@
-﻿namespace WP_zad2_observer;
+﻿namespace designPatterns.uj_design_patterns_assignments.observer;
 
 public interface IObserver
 {

@@ -1,4 +1,4 @@
-﻿namespace WP_zad3_templateMethod;
+﻿namespace designPatterns.uj_design_patterns_assignments.templateMethod;
 
 
 public class GroundPokemon : Pokemon

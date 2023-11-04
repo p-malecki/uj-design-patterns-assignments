@@ -1,4 +1,4 @@
-namespace WP_zad1_fasada;
+namespace designPatterns.uj_design_patterns_assignments.facade;
 
 class Librarian : Patron
 {

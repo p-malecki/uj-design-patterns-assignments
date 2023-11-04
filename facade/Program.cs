@@ -1,9 +1,9 @@
-namespace WP_zad1_fasada;
+namespace designPatterns.uj_design_patterns_assignments.facade;
 
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
         Librarian mrLibrarian = new("mr librarian", "addr", "123456789");
         Library theLibrary = new("location", mrLibrarian._librarianID);

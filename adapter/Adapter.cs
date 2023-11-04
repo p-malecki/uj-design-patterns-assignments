@@ -1,4 +1,4 @@
-namespace WP_zad1_adapter;
+namespace designPatterns.uj_design_patterns_assignments.adapter;
 
 class Adapter : LegacyCar
 {

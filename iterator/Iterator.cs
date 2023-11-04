@@ -1,6 +1,4 @@
-﻿using System.Reflection.Emit;
-
-namespace WP_zad2_iterator;
+﻿namespace designPatterns.uj_design_patterns_assignments.iterator;
 
 public class Iterator : IIterator
 {
