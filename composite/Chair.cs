@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-namespace uj_design_patterns.uj_design_patterns_assignments.composite
+namespace designPatterns.uj_design_patterns_assignments.composite
 {
     internal class Chair : Composite
     {
@@ -15,5 +15,21 @@ namespace uj_design_patterns.uj_design_patterns_assignments.composite
         {
         }
 
+        public new void Add(IComponent c)
+        {
+            if (c is Institute)
+            {
+                base.Add(c);
+            }
+            else
+            {
+                throw new InvalidOperationException();
+            }
+        }
+        public override void PrintName()
+        {
+            Console.Write("\t");
+            base.PrintName();
+        }
     }
 }

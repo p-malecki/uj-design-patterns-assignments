@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace uj_design_patterns.uj_design_patterns_assignments.composite
+namespace designPatterns.uj_design_patterns_assignments.composite
 {
     internal class Composite : IComponent
     {
@@ -36,7 +36,7 @@ namespace uj_design_patterns.uj_design_patterns_assignments.composite
             return Children;
         }
 
-        public void PrintName()
+        public virtual void PrintName()
         {
             Console.WriteLine("{0}: {1}", _type, _name);
             foreach (var component in Children)

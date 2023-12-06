@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace uj_design_patterns.uj_design_patterns_assignments.composite
+namespace designPatterns.uj_design_patterns_assignments.composite
 {
     internal class Employee : IComponent
     {
@@ -21,7 +21,7 @@ namespace uj_design_patterns.uj_design_patterns_assignments.composite
 
         public void PrintName()
         {
-            Console.WriteLine("\t" + _name);
+            Console.WriteLine("\t\t\t\t" + _name);
         }
 
         public string GetId()
