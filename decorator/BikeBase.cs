@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace uj_design_patterns.uj_design_patterns_assignments.decorator
+namespace designPatterns.uj_design_patterns_assignments.decorator
 {
     public abstract class BikeBase
     {

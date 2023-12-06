@@ -1,4 +1,4 @@
-using uj_design_patterns.uj_design_patterns_assignments.decorator;
+using designPatterns.uj_design_patterns_assignments.decorator;
 
 namespace designPatterns.uj_design_patterns_assignments.decorator;
 

@@ -1,4 +1,4 @@
-using uj_design_patterns.uj_design_patterns_assignments.factory_method;
+using designPatterns.uj_design_patterns_assignments.factory_method;
 
 namespace designPatterns.uj_design_patterns_assignments.factory_method;
 
