@@ -4,17 +4,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace design_patterns.uj_design_patterns_assignments.prototype
+namespace designPatterns.uj_design_patterns_assignments.prototype
 {
-    internal abstract class Multimedia
+    internal abstract class Multimedia : ICloneable
     {
-        private string _name;
-        private string _objectType;
-        private MultimediaObj _obj;
+        protected readonly string Name;
+        protected readonly string ObjectType;
+        protected readonly MultimediaObj Obj;
 
-        public Multimedia(string name, string objectType) {}
+        protected Multimedia(string name, string objectType, MultimediaObj obj)
+        {
+            Name = name;
+            ObjectType = objectType;
+            Obj = obj;
+        }
 
-        public Multimedia clone() {}
-        public string ToString() {}
+        public abstract object ShallowClone();
+        public abstract object Clone();
+        public new abstract string ToString();
     }
 }
