@@ -1,5 +1,5 @@
-using uj_design_patterns.uj_design_patterns_assignments.builder;
-namespace uj_design_patterns.uj_design_patterns_assignments.builder;
+using designPatterns.uj_design_patterns_assignments.builder;
+namespace designPatterns.uj_design_patterns_assignments.builder;
 
 
 class Program
