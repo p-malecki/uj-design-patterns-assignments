@@ -2,10 +2,10 @@
 
 public class ReplaceCommand : ICommand
 {
-    private readonly IAutoPartElement _receiver;
+    private readonly SuspensionPart _receiver;
     private readonly string _newPartId;
 
-    public ReplaceCommand(IAutoPartElement receiver, string newPartId)
+    public ReplaceCommand(SuspensionPart receiver, string newPartId)
     {
         this._receiver = receiver;
         this._newPartId = newPartId;

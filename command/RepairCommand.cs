@@ -2,10 +2,10 @@
 
 public class RepairCommand : ICommand
 {
-    private readonly IAutoPartElement _receiver;
+    private readonly BodyPart _receiver;
 
 
-    public RepairCommand(IAutoPartElement receiver)
+    public RepairCommand(BodyPart receiver)
     {
         this._receiver = receiver;
     }

@@ -2,10 +2,10 @@
 
 public class UpdateSoftwareCommand : ICommand
 {
-    private readonly IAutoPartElement _receiver;
+    private readonly ElectricalPart _receiver;
     private readonly string _newSoftwareVersion;
 
-    public UpdateSoftwareCommand(IAutoPartElement receiver, string newSoftwareVersion)
+    public UpdateSoftwareCommand(ElectricalPart receiver, string newSoftwareVersion)
     {
         this._receiver = receiver;
         this._newSoftwareVersion = newSoftwareVersion;
