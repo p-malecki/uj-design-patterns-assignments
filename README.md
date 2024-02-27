@@ -4,7 +4,7 @@ This repository contains assignments for the Design Patterns course at Jagiellon
 
 ## Patterns Included
 
-- **Abstract Factory (Shapes)**
+- **Abstract Factory**
 - **Adapter**
 - **Bridge**
 - **Builder**
@@ -15,7 +15,7 @@ This repository contains assignments for the Design Patterns course at Jagiellon
 - **Factory Method**
 - **Iterator**
 - **Observer**
-- **Prototype (Multimedia)**
+- **Prototype**
 - **Strategy**
 - **Template Method**
 - **Visitor**
